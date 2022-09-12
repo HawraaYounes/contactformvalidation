@@ -1,25 +1,31 @@
 <html>
     <head>
         <title>Form Validation</title>
+        <link rel="stylesheet" href="styles.css">
     </head>
     <body>
-        <form>
-
+        <div class="inputs">
             <label for="fullname">First Name</label>
             <input type="text" id="fullname" placeholder="Your name..">
-
+        </div>
+        <div class="inputs">
             <label for="email">Email</label>
             <input type="email" id="email" placeholder="Email..">
-
+        </div>
+        <div class="inputs">
             <label for="phone">Phone number</label>
             <input type="text" id="phone" placeholder="Phone number..">
-        
+        </div>
+        <div class="inputs">
             <label for="message">Message</label>
             <textarea id="message" placeholder="Write your message here.."></textarea>
-        
+        </div>
+        <div class="inputs">
             <button id="submit-btn">submit</button>
-        
-          </form>
+        </div>
+          <div id="errors">
+
+          </div>
         </div>
         <script src="main.js"></script>
     </body>
